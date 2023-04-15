@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Open+Sans:wght@300;400;600&family=Roboto:wght@100;300;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+font-family: 'Open Sans', sans-serif;
+}
+
+.headerSolid{
+    background-color: #34495e;
+    height: 4rem;
+}
+.headerPrincipal{
+    display: inline-block;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    height: 10vh;
+
+}
+.centrar{
+    text-align: center;
+}
+
+.tituloPrincipal{
+    font-size:5rem;
+
+}
+.subTituloPrincipal{
+    font: size 1rem;
+    text-align: center;
+}
+
+.enLinea{
+    display: inline-block;    
+}
+
+.navegacion {
+    color:black;
+    text-align: center;
+    margin-top: 3rem;
+
+}
+
+
+.alinearNavegacion{
+    display:inline-block;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 0.2rem;
+    border: 0.1rem none;
+}
+
+
+.listaItem{
+    color:black;
+    text-decoration: none;
+}
+
+.fotoMain{
+    background-image: url(../assets/ambo\ medico\ blanco\ y\ negro.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.textoEscritoNosotros {
+background-color: rgba(0, 0, 0, 0.151);
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 10px;
+
+}
+
+.textoEscritoNosotros h3{
+    font-size: 3rem;
+    padding-top: 10px;
+}
+
+.textoEscritoNosotros p{
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+.bordeParrafo{
+    border: 0.1rem solid black;
+}
+
+
+.footer{
+    background-color:#34495e;
+color:black
+
+}
+.footerInfo{
+    display: inline-block;
+    width: 100%;
+    font-size: 1.5rem;
+    color:white;
+    text-align: center;
+}
+.iconRedes{
+    color: white;
+
+}
+.listaNavegacion{
+    list-style-type: none;
+}
+
+.listaItemFooter{
+    color:white;
+    text-decoration: none;
+
+}
+
+.alinearFooter{
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    margin-left: 3rem;
+
+}
+.mapaFooter{
+    margin-top: 1.5rem;
+}
+.copyright{
+    margin-left: 15rem;
+    color:aliceblue
+}
+
+.wsp{
+    display: inline-block;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    color:green;
+    text-decoration: none;
+    vertical-align: middle;
+
+}
