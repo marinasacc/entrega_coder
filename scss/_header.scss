@@ -9,9 +9,10 @@
             display: inline-block;  
 
             .tituloPrincipal{
-                font-size:5rem;
+                font-size: map-get($font-sizes, xxl);
             
             }
+
             .subTituloPrincipal{
                 font: size 1rem;
                 text-align: center;
@@ -20,18 +21,21 @@
 
         .prueba{
             height: 100%;
-            font-size: 2rem;
+            font-size: map-get($font-sizes, s);
 
             .colorUl{
                 justify-content: space-around;
                 align-items: center;
 
-                .pintar a:hover{
+                .pintar {
+                
+                a:hover{
                     background-color: rgba(207, 207, 207, 0.295);
                     opacity: 0.5;
                     border-radius: 10px;
+                    transition: background-color 2s;
                 }
-                
+                }
             }
         }
 
@@ -40,17 +44,13 @@
 
 
 @media screen and (max-width: 1800px){
-    .enLinea{
-        display: none
+
+    .headerPrincipal
+        .enLinea{
+            display: none
     }
     .tamanioLogo{
         width: 100px;
         height: 100px;
     }  
-}
-
-@media screen and (max-width: 767px){
-    .listaNavegacion li{
-        display: inline-block;
-    }    
 }

@@ -1,7 +1,7 @@
 
 .textoEscritoNosotros {
     h3{
-        font-size: 3rem;
+        font-size: map-get($font-sizes, l);
         padding-top: 10px;
         color:aliceblue;
     }

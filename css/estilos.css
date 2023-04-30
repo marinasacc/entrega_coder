@@ -1,4 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Open+Sans:wght@300;400;600&family=Roboto:wght@100;300;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 .textoEscritoNosotros {
   background-color: #34495e;
   text-align: center;
@@ -67,10 +81,11 @@
   background-color: rgba(207, 207, 207, 0.295);
   opacity: 0.5;
   border-radius: 10px;
+  transition: background-color 2s;
 }
 
 @media screen and (max-width: 1800px) {
-  .enLinea {
+  .headerPrincipal .enLinea {
     display: none;
   }
   .tamanioLogo {
@@ -78,25 +93,6 @@
     height: 100px;
   }
 }
-@media screen and (max-width: 767px) {
-  .listaNavegacion li {
-    display: inline-block;
-  }
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
 .textoEscritoNosotros h3 {
   font-size: 3rem;
   padding-top: 10px;
@@ -148,29 +144,27 @@ body {
   font-size: 1.8rem;
 }
 .footerP .lolo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-style: italic;
 }
 .footerP .lolo .listaItemFooter {
   color: white;
   text-decoration: none;
   text-align: center;
 }
-.footerP .lola {
+.footerP .lola, .footerP .lolo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.footerP .lola .listaNavegacion {
+.footerP .lola .listaNavegacion, .footerP .lolo .listaNavegacion {
   list-style-type: none;
 }
-.footerP .lola .listaNavegacion .listaItemFooter {
+.footerP .lola .listaNavegacion .listaItemFooter, .footerP .lolo .listaNavegacion .listaItemFooter {
   color: white;
   text-decoration: none;
   text-align: center;
 }
-.footerP .lola .listaNavegacion .listaItemFooter .iconRedes {
+.footerP .lola .listaNavegacion .listaItemFooter .iconRedes, .footerP .lolo .listaNavegacion .listaItemFooter .iconRedes {
   color: white;
 }
 .footerP .copyright {
@@ -190,6 +184,12 @@ body {
   color: green;
   text-decoration: none;
   vertical-align: middle;
+}
+
+@media screen and (max-width: 767px) {
+  .footerP .lola .listaNavegacion li, .footerP .lolo .listaNavegacion li {
+    display: inline-block;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

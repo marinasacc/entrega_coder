@@ -3,13 +3,11 @@
     background-color:#34495e;
     color:black;
     margin-top: 1rem;
-    font-size: 1.8rem;
+    font-size: map-get($font-sizes, xs);
 
     .lolo{
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend .lola;
+        font-style: italic;
 
         .listaItemFooter{
             color:white;
@@ -45,7 +43,7 @@
     .copyright{
         color:aliceblue;
         text-align: center;
-        font-size: 1rem;
+        font-size: map-get($font-sizes, xxs);
     }
     
     .wsp{
@@ -64,3 +62,15 @@
         
 
 }
+
+
+@media screen and (max-width: 767px){
+    .footerP{
+        .lola{
+            .listaNavegacion li{
+                display: inline-block;
+                }    
+            } 
+        }
+    }
+    

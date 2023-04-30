@@ -1,25 +1,21 @@
 .presupuestoTexto{
-    font-size: 5rem;
-    text-align: center;
-    margin-bottom: 5rem;
+    @include textoPresupuestos(map-get($font-sizes, xxl));
     margin-top: 2rem;
 }
 .presupuestoTexto2{
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 5rem;
+    @include textoPresupuestos(map-get($font-sizes, m));
 
 }
 
 .formulario{
-    font-size: 3rem;
+    font-size: map-get($font-sizes, l);
 
     .form-control{
-        font-size: 2rem;
+        font-size: map-get($font-sizes, s);
     }
 
     .btn-lg{
-        font-size: 3rem;   
+        font-size: map-get($font-sizes, l);   
     }
 
     .btn-primary{

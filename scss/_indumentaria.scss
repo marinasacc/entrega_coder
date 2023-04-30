@@ -2,7 +2,7 @@
 @media screen and (max-width: 767px){
 
     .table{
-            font-size: 1rem;
+            font-size: map-get($font-sizes, xxs);
     }
     
 }
