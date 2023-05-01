@@ -137,6 +137,30 @@ body {
     justify-content: center;
   }
 }
+.seccionImagen :hover {
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.seccionImagen :hover {
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.btn-lg {
+  font-size: 5rem;
+}
+
+.btn-primary {
+  background-color: #34495e;
+  border-color: #34495e;
+}
+
+.btn {
+  width: 100%;
+  height: auto;
+}
+
 .footerP {
   background-color: #34495e;
   color: black;
@@ -184,6 +208,8 @@ body {
   color: green;
   text-decoration: none;
   vertical-align: middle;
+  animation-iteration-count: infinite;
+  animation-duration: 7s;
 }
 
 @media screen and (max-width: 767px) {
