@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Open+Sans:wght@300;400;600&family=Roboto:wght@100;300;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.textoEscritoNosotros {
+  background-color: #34495e;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.textoEscritoNosotros p {
+  font-size: 2rem;
+  padding-top: 10px;
+  color: aliceblue;
+  margin-top: 10px;
+}
+.textoEscritoNosotros .bordeParrafo {
+  border: 0.1rem solid rgb(255, 255, 255);
+}
+
+.centrarCard {
+  margin: auto;
+}
+
+.card-body {
+  border: 1px solid black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.card-body .card-title {
+  text-align: center;
+}
+
+.imagenBordes {
+  border: 1px solid black;
+}
+
+.headerSolid {
+  background-color: #34495e;
+  height: 4rem;
+}
+
+.headerPrincipal {
+  display: flex;
+}
+.headerPrincipal .enLinea {
+  display: inline-block;
+}
+.headerPrincipal .enLinea .tituloPrincipal {
+  font-size: 5rem;
+}
+.headerPrincipal .enLinea .subTituloPrincipal {
+  font: size 1rem;
+  text-align: center;
+}
+.headerPrincipal .prueba {
+  height: 100%;
+  font-size: 2rem;
+}
+.headerPrincipal .prueba .colorUl {
+  justify-content: space-around;
+  align-items: center;
+}
+.headerPrincipal .prueba .colorUl .pintar a:hover {
+  background-color: rgba(207, 207, 207, 0.295);
+  opacity: 0.5;
+  border-radius: 10px;
+  transition: background-color 2s;
+}
+
+@media screen and (max-width: 1800px) {
+  .headerPrincipal .enLinea {
+    display: none;
+  }
+  .tamanioLogo {
+    width: 100px;
+    height: 100px;
+  }
+}
+.textoEscritoNosotros h3 {
+  font-size: 3rem;
+  padding-top: 10px;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 767px) {
+  .table {
+    font-size: 1rem;
+  }
+}
+.presupuestoTexto {
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+.presupuestoTexto2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.formulario {
+  font-size: 3rem;
+}
+.formulario .form-control {
+  font-size: 2rem;
+}
+.formulario .btn-lg {
+  font-size: 3rem;
+}
+.formulario .btn-primary {
+  background-color: #34495e;
+  border-color: #34495e;
+}
+
+@media screen and (max-width: 990px) {
+  .containerImagenPresupuesto {
+    display: flex;
+    justify-content: center;
+  }
+}
+.seccionImagen :hover {
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.seccionImagen :hover {
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.btn-lg {
+  font-size: 5rem;
+}
+
+.btn-primary {
+  background-color: #34495e;
+  border-color: #34495e;
+}
+
+.btn {
+  width: 100%;
+  height: auto;
+}
+
+.footerP {
+  background-color: #34495e;
+  color: black;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+}
+.footerP .lolo {
+  font-style: italic;
+}
+.footerP .lolo .listaItemFooter {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.footerP .lola, .footerP .lolo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerP .lola .listaNavegacion, .footerP .lolo .listaNavegacion {
+  list-style-type: none;
+}
+.footerP .lola .listaNavegacion .listaItemFooter, .footerP .lolo .listaNavegacion .listaItemFooter {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.footerP .lola .listaNavegacion .listaItemFooter .iconRedes, .footerP .lolo .listaNavegacion .listaItemFooter .iconRedes {
+  color: white;
+}
+.footerP .copyright {
+  color: aliceblue;
+  text-align: center;
+  font-size: 1rem;
+}
+.footerP .wsp {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 20%;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  color: green;
+  text-decoration: none;
+  vertical-align: middle;
+  animation-iteration-count: infinite;
+  animation-duration: 7s;
+}
+
+@media screen and (max-width: 767px) {
+  .footerP .lola .listaNavegacion li, .footerP .lolo .listaNavegacion li {
+    display: inline-block;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

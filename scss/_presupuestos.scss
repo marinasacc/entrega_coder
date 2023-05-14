@@ -1,0 +1,35 @@
+.presupuestoTexto{
+    @include textoPresupuestos(map-get($font-sizes, xxl));
+    margin-top: 2rem;
+}
+.presupuestoTexto2{
+    @include textoPresupuestos(map-get($font-sizes, m));
+
+}
+
+.formulario{
+    font-size: map-get($font-sizes, l);
+
+    .form-control{
+        font-size: map-get($font-sizes, s);
+    }
+
+    .btn-lg{
+        font-size: map-get($font-sizes, l);   
+    }
+
+    .btn-primary{
+        background-color:#34495e;
+        border-color: #34495e;;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 990px){
+    .containerImagenPresupuesto{
+        display: flex;
+        justify-content: center;
+    }    
+}
