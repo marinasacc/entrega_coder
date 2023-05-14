@@ -1,0 +1,44 @@
+
+.textoEscritoNosotros {
+    background-color: #34495e;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    p{
+        font-size: 2rem;
+        padding-top: 10px;
+        color:aliceblue;
+        margin-top: 10px;
+    }
+
+    .bordeParrafo{
+        border: 0.1rem solid rgb(255, 255, 255);
+    }
+
+}
+
+.centrarCard{
+    margin: auto;
+}
+
+.card-body{
+    border: 1px solid black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    .card-title{
+        text-align: center;
+    
+    }
+    
+}
+
+.imagenBordes{
+    border:1px solid black;
+}

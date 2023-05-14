@@ -1,0 +1,22 @@
+
+
+.seccionImagen :hover{
+
+    opacity: 1;
+    filter:contrast(120%);
+    
+}
+
+.btn-lg{
+    font-size: map-get($font-sizes, xxl);   
+}
+
+.btn-primary{
+    background-color:#34495e;
+    border-color: #34495e;;
+}
+
+.btn{
+    width: 100%;
+    height: auto;
+}
